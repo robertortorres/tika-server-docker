@@ -1,0 +1,16 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>Tika Analisador</title>
+</head>
+<body>
+    <h1>Enviar arquivo para análise</h1>
+    <form action="/analyze" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" required><br><br>
+        <button type="submit">Analisar</button>
+    </form>
+    <br>
+    <a href="/history">Ver histórico</a>
+</body>
+</html>
